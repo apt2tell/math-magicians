@@ -1,12 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magicians: components
- In this project, I added the logic needed to make the Calculator component I developed in the previous project  work.
+# Math Magicians: refactor with hooks
+In this project I refactored the Calculator component I developed in the past projects. Instead of using class based components, I used  hooks.
 
  ## Learning objectives
-- Handle events in a React app.
-- Use React life cycle methods.
-- Understand the mechanism of lifting state up.
+- Use React hooks.
 
 ## Built With
 
@@ -16,6 +14,7 @@
 - babel
 - webpack-dev-server
 - npm i big-js
+- hooks
 
 
 ### To launch the project locally:
