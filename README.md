@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Math magicians: components
- In this project, I continued with the development of the Math Magicians app. I developed a React component that will hold the core functionality: a calculator.
+ In this project, I added the logic needed to make the Calculator component I developed in the previous project  work.
 
  ## Learning objectives
-- Use React components.
-- Use React props.
-- Use React state.
+- Handle events in a React app.
+- Use React life cycle methods.
+- Understand the mechanism of lifting state up.
 
 ## Built With
 
@@ -15,6 +15,7 @@
 - npm
 - babel
 - webpack-dev-server
+- npm i big-js
 
 
 ### To launch the project locally:
