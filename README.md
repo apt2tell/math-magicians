@@ -1,11 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians: setup
- This is the first project of the Math Magicians application. You will set up the environment and tools needed to develop a React application. In the following projects, you will develop the actual application.
+# Math magicians: components
+ In this project, I continued with the development of the Math Magicians app. I developed a React component that will hold the core functionality: a calculator.
 
  ## Learning objectives
-- Set up a React app.
-- Use React documentation.
+- Use React components.
+- Use React props.
+- Use React state.
 
 ## Built With
 
