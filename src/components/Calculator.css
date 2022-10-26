@@ -9,6 +9,7 @@
   flex-direction: column;
   width: 50%;
   margin: 0 auto;
+  box-shadow: 2px 2px 8px #aaa;
 }
 
 .screen {
