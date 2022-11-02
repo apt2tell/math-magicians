@@ -13,21 +13,27 @@
 }
 
 .screen {
+  display: flex;
   background: #858693;
-  width: 100%;
-  padding: 1rem;
-  text-align: right;
   font-size: 1.5rem;
+  text-align: right;
   color: #fff;
 }
 
-.button {
+td {
   width: 25%;
   padding: 1.5rem;
   background: rgb(224, 224, 224);
   font-size: 0.6rem;
   border: 1px solid rgb(215, 215, 215);
   text-align: center;
+}
+
+th {
+  font-weight: 500;
+  padding: 1rem;
+  width: 100%;
+  
 }
 
 .row {
