@@ -17,44 +17,44 @@ const Calculator = () => {
   const { total, next, operation } = initalState;
   return (
     <table className="container">
+      <tbody>
       <tr className="screen">
+        <th>
         {total}
         {operation}
         {next}
-      </tr>
-      <colgroup>
-        <col span="3" />
-        <col span="1" className="col-4" />
-      </colgroup>
-      <tr className="row">
-        <td onClick={handleClick} className="button">AC</td>
-        <td onClick={handleClick} className="button">+/-</td>
-        <td onClick={handleClick} className="button">%</td>
-        <td onClick={handleClick} className="button col-4">&#xf7;</td>
+        </th>
       </tr>
       <tr className="row">
-        <td onClick={handleClick} className="button">7</td>
-        <td onClick={handleClick} className="button">8</td>
-        <td onClick={handleClick} className="button">9</td>
-        <td onClick={handleClick} className="button col-4">x</td>
+        <td onClick={handleClick}>AC</td>
+        <td onClick={handleClick}>+/-</td>
+        <td onClick={handleClick}>%</td>
+        <td onClick={handleClick} className="col-4">&#xf7;</td>
       </tr>
       <tr className="row">
-        <td onClick={handleClick} className="button">4</td>
-        <td onClick={handleClick} className="button">5</td>
-        <td onClick={handleClick} className="button">6</td>
-        <td onClick={handleClick} className="button col-4">-</td>
+        <td onClick={handleClick}>7</td>
+        <td onClick={handleClick}>8</td>
+        <td onClick={handleClick}>9</td>
+        <td onClick={handleClick} className="col-4">x</td>
       </tr>
       <tr className="row">
-        <td onClick={handleClick} className="button">1</td>
-        <td onClick={handleClick} className="button">2</td>
-        <td onClick={handleClick} className="button">3</td>
-        <td onClick={handleClick} className="button col-4">+</td>
+        <td onClick={handleClick}>4</td>
+        <td onClick={handleClick}>5</td>
+        <td onClick={handleClick}>6</td>
+        <td onClick={handleClick} className="col-4">-</td>
       </tr>
       <tr className="row">
-        <td onClick={handleClick} className="button span-2">0</td>
-        <td onClick={handleClick} className="button">.</td>
-        <td onClick={handleClick} className="button col-4">=</td>
+        <td onClick={handleClick}>1</td>
+        <td onClick={handleClick}>2</td>
+        <td onClick={handleClick}>3</td>
+        <td onClick={handleClick} className="col-4">+</td>
       </tr>
+      <tr className="row">
+        <td onClick={handleClick} className="span-2">0</td>
+        <td onClick={handleClick}>.</td>
+        <td onClick={handleClick} className="col-4">=</td>
+      </tr>
+      </tbody>
     </table>
   );
 };
