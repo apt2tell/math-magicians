@@ -1,0 +1,18 @@
+.home {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.welcome {
+  padding-left: 3rem;
+}
+
+p {
+  padding-left: 3rem;
+}
+
+.quote {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  padding: 3rem;
+}
+
