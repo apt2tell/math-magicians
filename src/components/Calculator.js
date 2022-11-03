@@ -16,6 +16,8 @@ const Calculator = () => {
   };
   const { total, next, operation } = initalState;
   return (
+    <>
+    <h3 className='math'>Let's Do Some Math!</h3>
     <table className="container">
       <tbody>
       <tr className="screen">
@@ -56,6 +58,7 @@ const Calculator = () => {
       </tr>
       </tbody>
     </table>
+    </>
   );
 };
 
