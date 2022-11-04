@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Math Magicians: refactor with hooks
-In this project I refactored the Calculator component I developed in the past projects. Instead of using class based components, I used  hooks.
+Mathmagician is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
 
  ## Learning objectives
 - Use React hooks.

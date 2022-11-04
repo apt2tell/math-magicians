@@ -33,7 +33,6 @@ th {
   font-weight: 500;
   padding: 1rem;
   width: 100%;
-  
 }
 
 .row {
@@ -47,6 +46,22 @@ th {
 
 .col-4 {
   background: rgb(245, 145, 62);
+}
+
+.nav-bar {
+  padding: 2rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  list-style: none;
+}
+
+.math {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding-left: 2rem;
 }
 
 @media (max-width: 768px) {
