@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const navBar = () => {
+// Create NavBar function
+const NavBar = () => {
   const links = [
     {
       id: 1,
@@ -10,26 +11,23 @@ const navBar = () => {
     },
     {
       id: 2,
-      path: '/calculator',
+      path: '/Calculator',
       text: 'Calculator |',
     },
     {
       id: 3,
-      path: '/quotes',
+      path: '/Quotes',
       text: 'Quotes',
     },
   ];
 
   return (
     <nav className="nav-bar">
-      <h1>Math Magicians</h1>
+      <h2>Math Magicians</h2>
       <ul>
-        {' '}
         {links.map((link) => (
           <li key={link.id}>
-            <Link
-              to={link.path}
-            >
+            <Link to={link.path}>
               {link.text}
             </Link>
           </li>
@@ -39,4 +37,4 @@ const navBar = () => {
   );
 };
 
-export default navBar;
+export default NavBar;
