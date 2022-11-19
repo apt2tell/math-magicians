@@ -16,7 +16,10 @@ Mathmagician is a website for all fans of mathematics. It is a Single Page App (
 - npm i big-js
 - hooks
 
+## Live Demo
+> Check [Live Demo](https://mathmagiciansapps.netlify.app/)
 
+# Getting started
 ### To launch the project locally:
 
 #### Step 1:
