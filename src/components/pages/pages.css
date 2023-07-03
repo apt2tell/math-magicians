@@ -1,16 +1,46 @@
-.welcome {
-  padding-left: 3rem;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+body {
+  font-family: "Sora", sans-serif;
+  box-sizing: border-box;
 }
 
-p {
-  padding-left: 3rem;
+.home-container {
+  width: 100%;
+  background: #f5f5f5;
 }
 
-.home,
+.home-content {
+  margin: 5% auto;
+  padding: 10px;
+  width: 70%;
+  background: #f7f7f7;
+}
+
+.home-welcome {
+  color: #408080;
+}
+
+.home-text {
+  padding: 10px;
+  text-align: justify;
+}
+
+.nav-bar a {
+  padding: 10px;
+  text-decoration: none;
+  background: #ccc;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.nav-bar a:hover {
+  background: #aaa;
+}
+
 .quote {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  padding: 3rem;
-  background-color: #f3f3f3;
-  box-shadow: 2px 2px 8px rgb(0, 0, 0);
+  margin: 5% auto;
+  padding: 10px;
+  width: 70%;
+  background: #f7f7f7;
 }
