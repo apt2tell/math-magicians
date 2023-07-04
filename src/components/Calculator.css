@@ -4,10 +4,16 @@
   box-sizing: border-box;
 }
 
+.calculator-text {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding-left: 2rem;
+  text-align: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   box-shadow: 2px 2px 8px #aaa;
 }
@@ -59,14 +65,9 @@ th {
   list-style: none;
 }
 
-.math {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  padding-left: 2rem;
-}
-
 @media (max-width: 768px) {
   .container {
-    width: 100%;
+    width: 90%;
   }
 
   .screen {
@@ -75,5 +76,9 @@ th {
 
   .row {
     width: 100%;
+  }
+
+  .nav-bar ul {
+    justify-content: center;
   }
 }
