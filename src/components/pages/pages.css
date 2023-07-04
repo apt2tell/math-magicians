@@ -44,3 +44,17 @@ body {
   width: 70%;
   background: #f7f7f7;
 }
+
+@media (max-width: 768px) {
+  .nav-bar ul {
+    margin: 12px 2px 2px 0;
+  }
+
+  .home-content {
+    width: 90%;
+  }
+
+  .quote {
+    width: 90%;
+  }
+}
